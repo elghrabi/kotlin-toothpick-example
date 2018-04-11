@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.dev.sel_ghrabi.KotlinToothpick.BattleOfBastards">
+
+    <Button
+        android:id="@+id/btn_prepare"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Prepare For war"/>
+
+    <TextView
+        android:id="@+id/txt_war"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="No war"/>
+
+    <Button
+        android:id="@+id/btn_report"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Report"/>
+
+</RelativeLayout>
